@@ -1,4 +1,6 @@
 public class LifelineSite extends Site{
+    private double _rate;
+    private double _units;
 
 
 

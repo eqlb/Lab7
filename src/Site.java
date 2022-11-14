@@ -1,5 +1,6 @@
 public abstract class Site {
     protected static double TAX_RATE = 0.13;
+   
 
     public static void main(String[] args){
         System.out.println("Hello world!");
