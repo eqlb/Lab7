@@ -1,8 +1,12 @@
-public class Site {
-    static double TAX_RATE;
+public abstract class Site {
+    protected static double TAX_RATE = 0.13;
+
+    public static void main(String[] args){
+        System.out.println("Hello world!");
+    }
 
 
-    public double getBillableAmount(){
+    public double getBillableAmount(double _units, double _rate){
         return getBaseAmount() + getTaxAmount();
     }
 
