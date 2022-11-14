@@ -9,7 +9,11 @@ public abstract class Site {
     }
 
 
-    public abstract double getBillableAmount();
+    public double getBillableAmount(){
+        double base = getBaseAmount();
+        double tax = getTaxAmount();
+        return base + tax;
+    }
 
     protected abstract double getBaseAmount();
     protected abstract double getTaxAmount();

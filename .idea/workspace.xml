@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60951730-6da3-4477-91a0-0b38f96eff8e" name="Changes" comment="Added a field, and changed signature">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="60951730-6da3-4477-91a0-0b38f96eff8e" name="Changes" comment="Added methods to LifelineSite">
+      <change beforePath="$PROJECT_DIR$/src/LifelineSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifelineSite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ResidentialSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResidentialSite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.java" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668454256901</updated>
-      <workItem from="1668454258586" duration="4807000" />
+      <workItem from="1668454258586" duration="5118000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Point">
       <created>1668459132033</created>
@@ -115,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668460987731</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pulled getTaxAmount and getBaseAmount up to Site, and added protected field to Site">
+      <created>1668461381904</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668461381904</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added methods to LifelineSite">
+      <created>1668461522148</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668461522148</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +167,8 @@
     <MESSAGE value="Began refactoring getBillableAmount()" />
     <MESSAGE value="Added fields for ResidentialSite and LifelineSite" />
     <MESSAGE value="Added a field, and changed signature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a field, and changed signature" />
+    <MESSAGE value="Pulled getTaxAmount and getBaseAmount up to Site, and added protected field to Site" />
+    <MESSAGE value="Added methods to LifelineSite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added methods to LifelineSite" />
   </component>
 </project>
