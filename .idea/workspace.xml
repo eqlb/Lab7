@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60951730-6da3-4477-91a0-0b38f96eff8e" name="Changes" comment="Began Refactoring, Added methods to Site">
-      <change beforePath="$PROJECT_DIR$/src/LifelineSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifelineSite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.java" afterDir="false" />
+    <list default="true" id="60951730-6da3-4477-91a0-0b38f96eff8e" name="Changes" comment="Moved getBillabeAmount()">
+      <change beforePath="$PROJECT_DIR$/src/ResidentialSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResidentialSite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668454256901</updated>
-      <workItem from="1668454258586" duration="3473000" />
+      <workItem from="1668454258586" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="Starting Point">
       <created>1668459132033</created>
@@ -72,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668459649635</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Moved getBillabeAmount()">
+      <created>1668460182313</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668460182313</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting Point" />
     <MESSAGE value="Began Refactoring, Added methods to Site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Began Refactoring, Added methods to Site" />
+    <MESSAGE value="Moved getBillabeAmount()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved getBillabeAmount()" />
   </component>
 </project>
