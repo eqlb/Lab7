@@ -2,7 +2,7 @@ public class ResidentialSite extends Site{
 
 
     @Override
-    public double getBillableAmount(double _units, double _rate){
+    public double getBillableAmount(){
         double base = getBaseAmount(_units, _rate);
         double tax = getTaxAmount(base);
         return base + tax;
