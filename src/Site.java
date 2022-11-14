@@ -4,17 +4,18 @@ public abstract class Site {
     protected double _units;
     protected double _rate;
 
-    public static void main(String[] args){
-        System.out.println("Hello world!");
-    }
-
-
     public double getBillableAmount(){
         return getBaseAmount() + getBaseAmount();
     }
 
-    protected abstract double getBaseAmount();
-    protected abstract double getTaxAmount();
+    protected double getBaseAmount(){
+        double base = _units * _rate * 0.5;
+        return base;
+    }
+    protected double getTaxAmount(){
+        double tax = base * Site.TAX_RATE;
+        return tax;
+    }
 
 }
 
